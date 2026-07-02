@@ -1,6 +1,19 @@
 # AGENTS.md
 
-This is a **teaching repository** for the "Working Critically with AI Coding Tools" workshop. Do not modify code or fix issues unless explicitly asked.
+> **Project:** Teaching repository for the "Working Critically with AI Coding Tools" workshop.
+> **Core constraint:** Learners experiment with AI coding tools; code should not be changed except as a deliberate workshop exercise.
+
+## Toolchain
+
+| Action | Command |
+|---|---|
+| Run notebook | `jupyter nbconvert --to notebook --execute text_analysis_notebook.ipynb` |
+| AI config | `opencode.json` |
+
+## Judgment Boundaries
+
+**ASK**
+- Before modifying any existing code or fixing any issue
 
 ## AI Use Policy
 
