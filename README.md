@@ -9,6 +9,7 @@ This project performs text analysis on Shakespeare's *Hamlet*. It reads the play
 ## Project Structure
 
 ```
+├── app.py                          # Web app (Streamlit)
 ├── text_analysis_notebook.ipynb   # Main analysis notebook
 ├── example.ipynb                   # Tutorial notebook (example workflow)
 ├── data/
@@ -58,6 +59,16 @@ jupyter nbconvert --to notebook --execute text_analysis_notebook.ipynb
 ```
 
 The output histogram will be saved to the `results/` directory.
+
+## Web App
+
+An interactive web interface is available via Streamlit:
+
+```bash
+streamlit run app.py
+```
+
+Upload any text file, configure stop word language and n-gram settings in the sidebar, and view an interactive bar chart of the most frequent words.
 
 ## Example Notebook
 
